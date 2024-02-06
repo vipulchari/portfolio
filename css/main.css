@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v3_131 {
+  width: 100%;
+  height: 2657px;
+  background: rgba(243,243,243,1);
+  padding: 70px 160px;
+  margin: 209px;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.name {
+  color: #fff;
+}
+.v28_197 {
+  width: 100%;
+  height: 2044px;
+  background: url("../images/v28_197.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 314px;
+  left: 160px;
+  overflow: hidden;
+}
+.v3_212 {
+  width: 100%;
+  height: 283px;
+  background: url("../images/v3_212.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v3_133 {
+  width: 360px;
+  color: rgba(24,23,23,1);
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-family: DM Sans;
+  font-weight: Medium;
+  font-size: 60px;
+  opacity: 1;
+  text-align: left;
+}
+.v3_220 {
+  width: 33px;
+  height: 38px;
+  background: rgba(24,23,23,1);
+  opacity: 1;
+  position: absolute;
+  top: 245px;
+  left: 1px;
+}
+.v3_141 {
+  width: 580px;
+  color: url("../images/v3_141.png");
+  position: absolute;
+  top: 64px;
+  left: 476px;
+  font-family: DM Sans;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v62_841 {
+  width: 638px;
+  height: 365px;
+  background: url("../images/v62_841.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 983px;
+  left: 480px;
+  overflow: hidden;
+}
+.v62_843 {
+  width: 640px;
+  height: 365px;
+  background: url("../images/v62_843.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1571px;
+  left: 480px;
+  overflow: hidden;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.v62_838 {
+  width: 639px;
+  height: 364px;
+  background: url("../images/v62_838.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 758px;
+  left: 640px;
+  overflow: hidden;
+}
