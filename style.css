@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "DM Sans",sans-serif;
+}
+
+/* navbar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 105px;
+    width: 1120px;
+    margin: auto;
+    background: linear-gradient(100deg, #928f9b, #e6e6f1);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+nav .left {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 500px;
+    padding-left: 50px;
+
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 100px;
+
+}
+
+
+
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+    font-weight: 600;
+}
+
+nav ul li a:hover
+{
+    color: #e28f8f;
+    font-size: 1.1rem;
+}
+
+
+
+/* intro */
+
+.intro{
+    width: 1120px;
+    height: 330px;
+    margin: auto;
+    display: flex;
+    padding-top: 105px;
+}
+
+.leftintro{
+    width: 465px;
+    height: inherit;
+    font-size: 1.7em;
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.leftintro h1{
+    padding: 42px;
+}
+
+.rightintro{
+    width: 639px;
+    height: inherit;
+    display: flex;
+    align-items: end;
+    padding-left: 38px 
+   
+}
+
+.rightintro p{
+    font-size: 30px;
+    color: #606060;
+    letter-spacing: 0.01rem;
+}
+
+.arrow{
+    margin: 100px 400px;
+}
+
+/* projects */
+
+.projects_container{
+    width: 1120px;
+    height: 1294px;
+    margin: 75px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects{
+    width:inherit;
+    height: 364px;
+    margin: auto;
+    display: flex;
+}
+
+.projects .left{
+    width: 508px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 58px ;
+}
+
+.regular{
+    font-size: 14px;
+    color:#606060
+}
+
+.link{
+    font-weight: 600;
+    color: black;
+}
+
+.link:hover{
+    color: #e28f8f;
+}
+
+a {
+    width: 200px;
+    text-decoration: none;
+    color:black
+}
+
+.projects .right{
+    width: 639px;
+    height: inherit;
+}
+
+.projects .right .img1{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* footer */
+
+
+.footer_container{
+    
+    background: linear-gradient(100deg, #928f9b, #e6e6f1);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-weight: 500 ;
+}
+
+.footer:hover{
+    color: #e28f8f;
+    font-size: 1.05rem;
+
+}
+
+.links:hover{
+    color: #e28f8f;
+    
+}
+
+/* about me page */
+
+.hero{
+    padding-top: 140px;
+    width: 1120px;
+    margin: auto;
+}
+
+.aboutme{
+    font-size: 1.7em;
+   
+}
+
+.skill{
+    font-size: 30px;
+    color: #606060;
+    letter-spacing: 0.01rem;
+    
+}
+
+.skills{
+    font-size: 20px;
+    padding: 40px 0;
+}
+
+.motivation{
+    padding: 40px 0;
+}
+.span1{
+    padding-left: 200px;
+ 
+}
+
+.span2{
+    padding-left: 240px;
+}
+.span3{
+    padding-left: 352px;
+}
+
+/* resume section */
+
+.resume{
+    display: flex;
+    padding: 50px 0;
+    fo
+}
+
+.resumeleft{
+    width: 500px;
+}
+
+.resumecenter{
+    width: 300px;
+    align-self: center;
+}
+
+.resumeright ul li{
+list-style: none;
+line-height: 1.5;
+font-weight: 600;
+}
+
+.resumeright ul li a:hover{
+    color: #e28f8f;
+}
+
+.list1{
+    font-size: 1.4em;
+}
+
+/* powerland page */
+
+.project1{
+    width: 1120px;
+    height: 3200px;
+    margin: auto;
+    display: ;
+    padding-top: 105px;
+}
+
+.project1 h3{
+    line-height: 6;
+}
+
+.project1 .regular{
+    line-height: 3;
+    padding-bottom: 30px;
+}
+
+.project1 .bold{
+   padding-bottom: 60px;
+}
+
+.project1 .alt{
+    line-height: 1.8;
+    text-align-last: center;
+}
+
+.winchcover{
+    padding-top: 35px;
+}
+
+@media screen and (max-width: 450px) {
+
+    nav .left{
+        height: 50px;
+        width: 375px;
+        padding-left: -30px;
+  
+    }
+
+    nav ul{
+        margin-right: 150px;
+    }
+
+
+    .intro{
+      flex-direction: column;
+    }
+
+
+    .leftintro{
+        margin-left: 51px;
+        width: 1000px;
+        font-size: 2.3em;
+    }
+    
+    .rightintro{
+        padding-left: 525px;
+        line-height: 1.4;
+    }
+    
+    .arrow{
+        margin: 300px 530px;
+    }
+
+    .projects_container{
+        width: 1000px;
+        height: 1300px ;
+        margin: 0px 85px;
+        margin-top: -100px;
+    }
+
+    footer{
+       
+    }
+    .footer_container{
+      width: 1120px;
+      
+    }
+
+    hr{
+        margin-top: 100px;
+    }
+
+    .aboutme{
+        margin-left: 75px;
+    }
+
+    .skill{
+        margin-left: 75px;
+    
+    }
+
+    .resume{
+        margin-left: 75px;
+    }
+
+    .scaledown{
+        width: 1000px;
+      
+    }
+
+   .project1{
+    margin-left: 50px;
+   }
+
+   .alt{
+    margin-right: 155px;
+   }
+
+}
